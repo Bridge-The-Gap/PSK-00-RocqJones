@@ -26,8 +26,11 @@ def calc_mean():
     print("The mean: [12, 4, 56, 17, 8, 99] is % s" % (mean(data_set)))
 
 # alphabets function
-def alph():
-    list = ["A for Apple", "B for Boy", "C for Cow", "...", "Z for Zebra"]
+def alph_A_to_Z():
+    list = ["A for Apple", "B for Boy", "C for Cow", "D for Dog", "E for Elephant", "F for Fish", "G for Ghost",
+    "H for Horse", "I for Icecream", "J for Jug", "K for Kangaroo", "L for Lamb", "M for Moon", "N for Nine", 
+    "O for Ostrich", "P for Pig", "Q for Queen", "R for Ruler", "S for School", "T for Train", "U for Umbrella",
+    "V for Violet", "W for Wind", "X for Xmas", "Y for Yawn", "Z for Zebra"]
     for i in list:
         print(i)
 
@@ -38,4 +41,4 @@ max_num()
 print(break_one_line)
 calc_mean()
 print(break_one_line)
-alph()
+alph_A_to_Z()
